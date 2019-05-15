@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    tools:context="com.gon.emo.ActionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/ibZoomin"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zoomin" />
+
+
+        <ImageView
+            android:id="@+id/ibZoomout"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/zoomout" />
+
+
+        <ImageView
+            android:id="@+id/ibBright"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/brighter" />
+
+        <ImageView
+            android:id="@+id/ibDark"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/darken" />
+
+        <ImageView
+            android:id="@+id/ibGray"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gray" />
+
+
+        <ImageView
+            android:id="@+id/ivStyleBack"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_back"
+            android:scaleType="fitCenter"
+            android:clickable="true"
+            android:layout_marginHorizontal="70dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

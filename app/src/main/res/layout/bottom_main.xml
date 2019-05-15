@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical"
+    tools:context="com.gon.emo.ActionActivity">
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/llBottom"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/ivText"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:scaleType="fitCenter"
+                android:clickable="true"
+                android:src="@drawable/img_text" />
+
+
+            <ImageView
+                android:id="@+id/ivPen"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_pencil"
+                android:clickable="true"
+                android:layout_marginHorizontal="30dp"
+                />
+
+            <ImageView
+                android:id="@+id/ivEraser"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_eraser"
+                android:clickable="true"
+                android:layout_marginHorizontal="30dp"
+                />
+
+            <ImageView
+                android:id="@+id/ivStyle"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_style"
+                android:clickable="true"
+                android:layout_marginHorizontal="30dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
